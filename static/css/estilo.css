@@ -1,0 +1,50 @@
+.element-div {
+    height: 50vw;
+    width: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container{
+    position: relative;
+}
+
+.montanha{
+    width: 100%;
+    height: 100%;
+}
+
+.frase {
+    position: absolute;
+    color: red;
+    margin-left: 250px;
+}
+
+.item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+    box-sizing: border-box;
+}
+
+.container-cap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.img {
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+}
